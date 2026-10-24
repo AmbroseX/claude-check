@@ -35,7 +35,7 @@ TRACE_URL = "https://claude.ai/cdn-cgi/trace"
 LOGIN_URL = "https://claude.ai/login"
 API_URL = "https://api.anthropic.com/v1/messages"
 IPV6_URL = "https://api6.ipify.org?format=json"
-DNS_URL = "http://edns.ip-api.com/json"  # 只有 http
+DNS_URL = "https://edns.ip-api.com/json"  # 先 302 到随机子域名,逼着现解析
 TRIES = 3
 BROWSER_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
               "(KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36")
